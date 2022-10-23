@@ -30,6 +30,7 @@ books.map((bookItem) => {
   const img = bookItem.img;
   const title = bookItem.title;
   const author = bookItem.author;
+
   const read = bookItem.alreadyRead;
   book(img, title, "", author, read);
 });
